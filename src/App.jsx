@@ -9,6 +9,7 @@ import Navbar from "./components/navBar";
 
 const App = () => {
   return (
+    
     <Router>
       <div>
         {/* Navbar */}
