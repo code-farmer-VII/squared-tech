@@ -54,32 +54,18 @@ function ContactUs() {
             className="w-full px-4 py-2 border border-gray-300 rounded"
           />
           <div>
-            <p className="mb-2 text-gray-700">Services</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>Website design</span>
+            <div className="mb-4">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-400">
+                Message
               </label>
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>UX design</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>ERP Services</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>Content creation</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>Strategy & consulting</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input type="checkbox" className="form-checkbox" />
-                <span>Other</span>
-              </label>
+              <textarea
+                id="message"
+                name="message"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 p-2"
+                placeholder="Your message"
+                rows="5"
+                required
+              ></textarea>
             </div>
           </div>
           <button

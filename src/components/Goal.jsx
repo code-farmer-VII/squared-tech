@@ -23,7 +23,7 @@ const GoalSection = () => {
         },
       ]
   return (
-    <section className="bg-purple-100 py-12">
+    <section className="bg-purple-100 py-12 mt-20 md:mt-0">
       <div className="container mx-auto px-6 lg:px-20 text-center">
         <motion.h2
           className="text-4xl font-bold text-gray-800 mb-4"

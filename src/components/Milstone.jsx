@@ -4,47 +4,38 @@ import img from "../assets/Image/her.png";
 import background from "../assets/Image/gradiant line.png";
 
 export const Services = [
-    {
-      id: 1,
-      title: "Design Logo for Company",
-      description: "Create a unique and professional logo that represents your brand identity."
-    },
-    {
-      id: 2,
-      title: "Social Media Graphics",
-      description: "Design eye-catching graphics for your social media platforms to enhance engagement."
-    },
-    {
-      id: 3,
-      title: "Business Card Design",
-      description: "Craft stylish and memorable business cards that leave a lasting impression."
-    },
-    {
-      id: 4,
-      title: "Website Graphics",
-      description: "Design custom graphics for websites, including banners, buttons, and icons."
-    },
-    {
-      id: 5,
-      title: "Brochure Design",
-      description: "Create visually appealing brochures to showcase your products or services."
-    },
-    {
-      id: 6,
-      title: "Infographics",
-      description: "Design informative and engaging infographics that simplify complex data."
-    },
-    {
-      id: 7,
-      title: "Print Design",
-      description: "Develop print materials, including flyers, posters, and promotional items."
-    },
-    {
-      id: 8,
-      title: "Packaging Design",
-      description: "Design attractive packaging that stands out on the shelf and reflects your brand."
-    }
-  ];
+  {
+    id: 1,
+    title: "Odoo ERP Implementation",
+    description: "Streamline your business operations with expert Odoo ERP implementation, tailored to your needs."
+  },
+  {
+    id: 2,
+    title: "Custom ERP Modules",
+    description: "Develop custom modules for your ERP system to enhance efficiency and scalability."
+  },
+  {
+    id: 3,
+    title: "Warehouse Management Software",
+    description: "Optimize inventory and operations with AI-driven warehouse management solutions."
+  },
+  {
+    id: 4,
+    title: "Smart Video Management",
+    description: "Leverage AI-powered video management systems for advanced security and monitoring."
+  },
+  {
+    id: 5,
+    title: "RFID Weapons Management",
+    description: "Enhance safety and tracking with RFID-powered weapons management solutions."
+  },
+  {
+    id: 6,
+    title: "GPS Tracking Systems",
+    description: "Ensure safety and efficiency with advanced GPS tracking systems for vehicles."
+  }
+];
+
 
 const textVariant = {
   hidden: { opacity: 0, y: 20 },
@@ -105,7 +96,7 @@ const ExperienceCard = ({ service, isOdd }) => (
 );
 
 const Experience = () => (
-  <div className="py-8">
+  <div id="Service" className="py-8">
     <motion.div 
       initial="hidden" 
       whileInView="visible" 
@@ -113,7 +104,7 @@ const Experience = () => (
       className="text-center mb-8" 
       id="services"
     >
-      <p className="text-secondary text-sm">I do for you</p>
+      <p className="text-secondary text-xl font-bold text-purple-600 ">We do for you</p>
       <h2 className="text-4xl font-bold">My Services</h2>
     </motion.div>
 

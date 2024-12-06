@@ -33,9 +33,9 @@ const AboutSection = () => {
                 and inspire change. Join us in our mission to make the world a
                 better place.
               </p>
-              <button className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-6 py-3 rounded">
+              <a href="#Service" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-6 py-3 rounded cursor-pointer" >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>

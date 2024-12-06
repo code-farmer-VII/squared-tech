@@ -3,6 +3,7 @@ import HeroAbout from '../components/HeroAbout'
 import GoalSection from '../components/Goal'
 import SmoothSlider from '../components/Slider'
 import MissionSection from '../components/Mission'
+import EmployeeSection from '../components/Team'
 
 function AboutUs() {
   return (
@@ -11,6 +12,7 @@ function AboutUs() {
       <GoalSection />
       <SmoothSlider />
       <MissionSection />
+      <EmployeeSection />
     </div>
   )
 }

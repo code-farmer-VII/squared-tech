@@ -12,6 +12,7 @@ function Services() {
       <Milestones />
       <ServiceSection color={color} />
       <Dedication />
+      
     </div>
   )
 }

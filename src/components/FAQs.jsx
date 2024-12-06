@@ -29,12 +29,12 @@ const FAQ = () => {
     };
 
     return (
-        <div className="container mx-auto px-4 pb-32 md:pb-60 pt-20">
+        <div className="container mx-auto px-4 pb-32 md:pb-32 pt-20">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">Frequently Asked Questions</h2>
-            <div className='flex md:flex-row flex-col space-x-0 md:space-x-6 mt-12'>
+            <div className='flex md:flex-row flex-col space-x-0 md:space-x-6 mt-24'>
                 <div>
                     <div>
-                        <div className='text-3xl rounded-lg md:text-6xl font-bold border-l-4 border-purple-700 md:rounded-xl pl-4'>
+                        <div className='text-3xl rounded-lg md:text-6xl font-bold border-l-4 border-purple-700 md:rounded-xl pl-4 text-gray-500'>
                             Implementing <span className='text-purple-700'>AI</span> to make a difference
                         </div>
                     </div>
