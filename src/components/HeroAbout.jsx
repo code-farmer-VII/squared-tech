@@ -3,7 +3,7 @@ import image1 from "../assets/Image/left hero.png"
 
 function HeroAbout() {
   const images = [
-    "image1", // Replace with your actual image URLs
+    "image1", 
     "image1",
     "image1",
     "image1",
@@ -13,7 +13,6 @@ function HeroAbout() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold mb-10">Our Trusted Clients</h1>
       <div className="relative w-72 h-72">
-        {/* Central Image */}
         <div className="absolute top-1/2 left-1/2 w-36 h-36 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full flex items-center justify-center shadow-md">
           <img
             src="https://via.placeholder.com/100"
@@ -22,15 +21,14 @@ function HeroAbout() {
           />
         </div>
 
-        {/* Rotating Images */}
         {images.map((image, index) => (
           <div
             key={index}
             className={`absolute w-12 h-12 rounded-full overflow-hidden`}
             style={{
-              transformOrigin: "50% 150px", // Distance from center
+              transformOrigin: "50% 150px", 
               animation: `rotate 10s linear infinite`,
-              animationDelay: `${index * 2.5}s`, // Staggered start
+              animationDelay: `${index * 2.5}s`, 
             }}
           >
             <img
@@ -42,7 +40,6 @@ function HeroAbout() {
         ))}
       </div>
 
-      {/* Supporting Content */}
       <div className="mt-8 text-center">
         <p className="text-lg text-gray-600">
           We believe in doing great work and building trust with our clients.

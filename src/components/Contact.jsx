@@ -5,7 +5,6 @@ function ContactUs() {
   return (
     <>
     <div className="flex flex-col lg:flex-row bg-gray-100 py-6 px-12 md:px-20">
-      {/* Left Section - Contact Form */}
       <div className="lg:w-1/2 w-full p-8 lg:p-16 ">
         <h1 className="text-4xl font-bold mb-4">Get in touch</h1>
         <p className="text-gray-600 mb-6">
@@ -92,7 +91,6 @@ function ContactUs() {
         </form>
       </div>
 
-      {/* Right Section - Google Map */}
       <div className="lg:w-1/2 w-full">
         <iframe
           title="Google Map"

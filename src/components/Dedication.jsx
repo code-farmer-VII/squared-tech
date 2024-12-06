@@ -7,7 +7,7 @@ const cards = [
     title: "Innovation",
     description:
       "Continuously pushing the boundaries of technology, especially the limits of our nation, and developing creative and state-of-the-art solutions.",
-    icon: "💡", // Replace with actual icons or images
+    icon: "💡", 
   },
   {
     number: 2,

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Slider.css"; // CSS file for styling
+import "./Slider.css"; 
 
 const sliderData = [
   {

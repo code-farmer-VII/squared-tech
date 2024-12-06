@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from "../assets/Image/temu1.jpg"
 import image2 from "../assets/Image/temustar.jpg"
+import { motion } from 'framer-motion';
 
 const testimonials = [
   {
@@ -37,7 +38,15 @@ const Testimonial = () => {
 
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between gap-10 p-8 lg:p-16 max-w-screen-xl mx-auto">
-      <div className="text-center lg:text-left">
+      <motion.div
+        initial={{ opacity: 0, x: "-100%" }} 
+        whileInView={{ opacity: 1, x: 0 }} 
+        transition={{
+          duration: 0.8,
+          delay: 0.3, 
+          ease: "easeOut",
+        }}
+       className="text-center lg:text-left">
         <h2 className="text-3xl font-bold mb-4">
           From our <span className="text-black">community.</span>
         </h2>
@@ -58,12 +67,16 @@ const Testimonial = () => {
             &#8594;
           </button>
         </div>
-      </div>
+      </motion.div>
 
       <div className="bg-gray-100 p-8 rounded-lg shadow-md w-full lg:w-1/2">
-        <blockquote className="text-lg text-gray-800 italic mb-4">
+        <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }} 
+        className="text-lg text-gray-800 italic mb-4">
           “{testimonials[currentIndex].quote}”
-        </blockquote>
+        </motion.div>
         <div className="flex items-center gap-4">
           <img
             src={testimonials[currentIndex].image}

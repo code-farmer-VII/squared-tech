@@ -1,8 +1,12 @@
 import React from 'react'
+import ContactUs from '../components/Contact'
 
-function ContactUs() {
+
+function Contact() {
   return (
-    <div className='bg-red-500 h-full'>ContactUs</div>
+    <div>
+        <ContactUs />
+    </div>
   )
 }
 

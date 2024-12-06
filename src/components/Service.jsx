@@ -5,7 +5,6 @@ import AI1 from "../assets/Image/AI1.png";
 import hardware from "../assets/Image/hard ware.png";
 import bg from "../assets/Image/gradiant line.png";
 
-// Service data
 const services = [
   {
     title: "ERP Services",
@@ -13,7 +12,7 @@ const services = [
       "Unlock the full potential of your business with our expert ERP solutions. As an official Odoo partner, we deliver seamless and efficient operations.",
     link: "#erp-services",
     icon: ERP,
-    background: bg, // Background image for the service
+    background: bg, 
   },
   {
     title: "AI-Powered Software",
@@ -21,7 +20,7 @@ const services = [
       "Revolutionize your business operations with our AI-driven software, including warehouse management, smart video management, and RFID-powered weapons management.",
     link: "#ai-software",
     icon: AI1,
-    background: bg, // Background image for the service
+    background: bg, 
   },
   {
     title: "Hardware Products",
@@ -29,7 +28,7 @@ const services = [
       "Explore our range of hardware products, such as GPS tracking systems for cars, designed to enhance safety and efficiency.",
     link: "#hardware-products",
     icon: hardware,
-    background: bg, // Background image for the service
+    background: bg, 
   },
 ];
 
@@ -41,30 +40,27 @@ const ServiceSection = () => {
           Our Services
         </h2>
 
-        {/* Service cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map(({ title, description, link, icon, background }, index) => (
             <motion.div
               key={index}
               className="bg-purple-600 bg-opacity-40 backdrop-blur-md rounded-lg p-6 text-center shadow-lg border border-purple-300 relative overflow-hidden"
-              initial={{ opacity: 0, x: "-100%" }} // Card starts off-screen to the left
-              whileInView={{ opacity: 1, x: 0 }} // Moves into view
+              initial={{ opacity: 0, x: "-100%" }} 
+              whileInView={{ opacity: 1, x: 0 }} 
               transition={{
                 duration: 0.8,
-                delay: 0.3 * index, // Delay for sequential animation
+                delay: 0.3 * index, 
                 ease: "easeOut",
               }}
             >
-              {/* Background image with low opacity */}
               <div
                 className="absolute inset-0 z-0 bg-cover bg-center"
                 style={{
                   backgroundImage: `url(${background})`,
-                  opacity: 0.2, // Background image opacity
+                  opacity: 0.2, 
                 }}
               />
               
-              {/* Card content */}
               <div className="relative z-10">
                 <img
                   src={icon}

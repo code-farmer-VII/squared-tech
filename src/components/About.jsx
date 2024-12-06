@@ -33,9 +33,13 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             About Squared Technology
           </h2>
-          <p className="text-lg text-gray-600 text-justify">
+          <motion.p
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+           className="text-lg text-gray-600 text-justify">
           At <span className="text-purple-600">Squared Technology</span>, we empower businesses with cutting-edge solutions. From ERP services to AI-powered software and hardware products, we drive efficiency and innovation for our clients. Our goal is to transform the way businesses operate by delivering intelligent and customized solutions that increase productivity and streamline operations. We pride ourselves on offering reliable, scalable, and impactful technology that enhances business growth and positions our clients at the forefront of their industries.
-          </p>
+          </motion.p>
         </div>
 
         <div className="h-min grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:gap-6 justify-center items-center">

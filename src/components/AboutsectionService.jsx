@@ -1,28 +1,29 @@
 import React from "react";
 import image1 from "../assets/Image/gradiant line.png"
 import image2 from "../assets/Image/her.png"
+import { motion } from "framer-motion";
 
 const AboutSection = () => {
     return (
         <div className="bg-white min-h-screen flex items-center">
           <div className="container mx-auto flex flex-col md:flex-row items-center">
-            {/* Image Section */}
-            <div className="relative md:w-1/2 flex justify-center">
-              {/* Background Image */}
+            <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }} 
+            className="relative md:w-1/2 flex justify-center">
               <img
-                src={`${image1}`} // Replace with your image path
+                src={`${image1}`} 
                 alt="Background Graphic"
                 className="absolute top-0 left-0 md:left-28 w-80 h-80 md:w-[400px] md:h-[400px] opacity-15"
               />
-              {/* Foreground Image */}
               <img
-                src={`${image2}`} // Replace with your image path
+                src={`${image2}`} 
                 alt="Person"
                 className="relative z-10 w-64 h-64 md:w-[400px] md:h-[400px]"
               />
-            </div>
+            </motion.div>
     
-            {/* Text Section */}
             <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left text-black">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Welcome to Our Company

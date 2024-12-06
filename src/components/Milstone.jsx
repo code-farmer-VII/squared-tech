@@ -70,14 +70,12 @@ const ExperienceCard = ({ service, isOdd }) => (
     initial="hidden"
     whileInView="visible"
   >
-    {/* Content */}
-    <div className={`relative card-milestone flex flex-col justify-end bg-purple-600 bg-opacity-40 backdrop-blur-md md:w-1/2 text-white px-6 py-4 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 ${isOdd ? "md:mr-0" : "md:ml-0"} mb-2 transition-all ease-in-out duration-700`}>
-                  {/* Background image with low opacity */}
+    <div className={`relative card-milestone flex flex-col justify-end bg-blue-600 bg-opacity-40 backdrop-blur-md md:w-1/2 text-white px-6 py-4 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 ${isOdd ? "md:mr-0" : "md:ml-0"} mb-2 transition-all ease-in-out duration-700`}>
                   <div
                 className="absolute inset-0 z-0 bg-cover bg-center"
                 style={{
                   backgroundImage: `url(${background})`,
-                  opacity: 0.1, // Background image opacity
+                  opacity: 0.1, 
                 }}
               />
       <motion.h3
@@ -92,10 +90,9 @@ const ExperienceCard = ({ service, isOdd }) => (
        className="text-secondary text-sm font-semibold text-center py-2 text-black">{service.description}</motion.p>
     </div>
 
-    {/* Icon on the center line */}
     <div className="absolute w-10 h-10 rounded-full bg-gray-200 flex justify-center items-center border-4 border-white -translate-x-1/2 left-[-50px] md:left-1/2 shadow-lg z-20">
       <img
-        src={img} // You may want to change this to a relevant icon or image for each service
+        src={img} 
         alt={service.title}
         className="w-8 h-8 object-contain"
         width={32}
@@ -103,7 +100,6 @@ const ExperienceCard = ({ service, isOdd }) => (
       />
     </div>
 
-    {/* Vertical line */}
     <div className="absolute w-1 bg-gray-200 h-full left-[-50px] md:left-1/2 top-0 md:block"></div>
   </motion.div>
 );
@@ -122,7 +118,6 @@ const Experience = () => (
     </motion.div>
 
     <div className="relative px-4 md:px-24">
-      {/* Timeline */}
       <motion.div
         className="flex flex-col"
         variants={staggerContainer}
