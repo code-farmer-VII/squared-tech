@@ -19,14 +19,11 @@ const Navbar = () => {
           <Link to="/" className="hover:text-blue-500">
             Home
           </Link>
-          <Link to="/services" className="hover:text-blue-500">
-            Services
-          </Link>
-          <Link to="/products" className="hover:text-blue-500">
-            Products
-          </Link>
           <Link to="/about-us" className="hover:text-blue-500">
             About Us
+          </Link>
+          <Link to="/services" className="hover:text-blue-500">
+            Services
           </Link>
           <Link to="/contact-us" className="hover:text-blue-500">
             Contact Us
@@ -77,25 +74,18 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/services"
-            onClick={toggleMenu}
-            className="hover:text-blue-500 text-lg w-full text-left"
-          >
-            Services
-          </Link>
-          <Link
-            to="/products"
-            onClick={toggleMenu}
-            className="hover:text-blue-500 text-lg w-full text-left"
-          >
-            Products
-          </Link>
-          <Link
             to="/about-us"
             onClick={toggleMenu}
             className="hover:text-blue-500 text-lg w-full text-left"
           >
             About Us
+          </Link>
+          <Link
+            to="/services"
+            onClick={toggleMenu}
+            className="hover:text-blue-500 text-lg w-full text-left"
+          >
+            Services
           </Link>
           <Link
             to="/contact-us"

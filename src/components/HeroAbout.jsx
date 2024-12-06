@@ -1,60 +1,36 @@
 import React from "react";
-import image1 from "../assets/Image/left hero.png"
+import image from "../assets/Image/gradiant line.png";
+import logo from "../assets/Image/logo square.png";
 
 function HeroAbout() {
-  const images = [
-    "image1", 
-    "image1",
-    "image1",
-    "image1",
-  ];
+
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold mb-10">Our Trusted Clients</h1>
-      <div className="relative w-72 h-72">
-        <div className="absolute top-1/2 left-1/2 w-36 h-36 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full flex items-center justify-center shadow-md">
-          <img
-            src="https://via.placeholder.com/100"
-            alt="Center Client"
-            className="rounded-full w-28 h-28 object-cover"
+<div className="relative bg-cover bg-center h-80 md:h-[400px] mb-6" >
+      <div className="absolute inset-0 bg-opacity-50"></div>
+      
+      <div className="relative flex flex-col items-center justify-center text-center text-black px-6 pb-12">
+      <img
+          src={`${image}`} 
+          alt="Background Graphic"
+          className="absolute top-0  bottom-0  w-960 h-80 md:w-[400px] md:h-[400px] opacity-15"
+        />
+        <div className="mb-6 py-6"> 
+          <img 
+            src={`${logo}`} 
+            alt="Company Logo" 
+            className="w-24 h-24 md:w-36 md:h-36 object-contain"
           />
         </div>
+        <div className="bg-gradient-to-r from-purple-800 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+  <h1 className="text-4xl md:text-6xl font-bold mb-4">#Squared Tech Solution</h1>
+</div>
 
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute w-12 h-12 rounded-full overflow-hidden`}
-            style={{
-              transformOrigin: "50% 150px", 
-              animation: `rotate 10s linear infinite`,
-              animationDelay: `${index * 2.5}s`, 
-            }}
-          >
-            <img
-              src={image}
-              alt={`Rotating ${index}`}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-8 text-center">
-        <p className="text-lg text-gray-600">
-          We believe in doing great work and building trust with our clients.
+        <h1 className="text-1xl md:text-2xl font-bold mb-4">Technology</h1>
+        
+        <p className="text-lg md:text-xl max-w-3xl">
+          We specialize in providing top-notch solutions in ERP Industry,Software and Hardware Development helping businesses achieve their goals with innovation and excellence.
         </p>
-        <div className="mt-4">
-          <span className="block font-bold text-xl">30+</span>
-          <p className="text-sm text-gray-500">Clients worldwide</p>
-        </div>
-        <div className="mt-2">
-          <span className="block font-bold text-xl">100k</span>
-          <p className="text-sm text-gray-500">Successful projects</p>
-        </div>
-        <button className="mt-6 px-6 py-2 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition">
-          Learn More
-        </button>
       </div>
     </div>
   );
