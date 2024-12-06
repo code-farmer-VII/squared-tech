@@ -1,19 +1,21 @@
 import React from 'react';
+import image1 from "../assets/Image/temu1.jpg"
+import image2 from "../assets/Image/temustar.jpg"
 
 const testimonials = [
   {
     quote:
       "Production Online has helped me become a better musician and producer than I ever thought possible.",
-    name: "Kyle Weznick",
-    title: "Media Director, Turn Around Music Group",
-    image: "https://via.placeholder.com/50", // Replace with actual image URL
+    name: "Temesgen Gonfa",
+    title: "Space VII CEO",
+    image: image1, 
   },
   {
     quote:
-      "sssss Online has helped me become a better musician and producer than I ever thought possible.",
-    name: "Kyle Weznick",
+      "Online has helped me become a better musician and producer than I ever thought possible.",
+    name: "Million Gonfa",
     title: "Media Director, Turn Around Music Group",
-    image: "https://via.placeholder.com/50", // Replace with actual image URL
+    image: image2, 
   },
   
 ];
@@ -40,7 +42,7 @@ const Testimonial = () => {
           From our <span className="text-black">community.</span>
         </h2>
         <p className="text-gray-600">
-          Here's what other subscribers had to say about Production Online.
+          Here's what other customers had to say about our Production .
         </p>
         <div className="flex gap-4 mt-6 justify-center lg:justify-start">
           <button

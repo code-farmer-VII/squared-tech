@@ -6,6 +6,8 @@ import Products from "./page/Products";
 import AboutUs from "./page/AboutUs";
 import ContactUs from "./page/ContactUs";
 import Navbar from "./components/navBar";
+import Footer from './components/Footer'
+
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
           </Routes>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 };
