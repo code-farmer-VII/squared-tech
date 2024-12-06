@@ -30,7 +30,8 @@ function ContactUs() {
             </a>
           </li>
         </ul>
-        <form className="space-y-4">
+        <form className="space-y-4" action="https://formspree.io/f/xjkbnkrg"
+    method="POST">
           <div className="flex flex-col lg:flex-row gap-4">
             <input
               type="text"
