@@ -6,7 +6,7 @@ function HeroAbout() {
 
 
   return (
-<div className="relative bg-cover bg-center h-80 md:h-[400px] mb-6" >
+<div className="relative bg-cover bg-center h-96 md:h-[400px] mb-6" >
       <div className="absolute inset-0 bg-opacity-50"></div>
       
       <div className="relative flex flex-col items-center justify-center text-center text-black px-6 pb-12">
