@@ -10,37 +10,37 @@ import img6 from "../assets/Image/img5.jpg"
 const employees = [
   {
     id: 1,
-    name: 'Jane Doe',
+    name: 'Temesgen Gonfa',
     role: 'Software Engineer',
     image: img1,
   },
   {
     id: 2,
-    name: 'John Smith',
+    name: 'Solomon Hailu',
     role: 'Project Manager',
     image: img2,
   },
   {
     id: 3,
-    name: 'Emily Brown',
+    name: 'Kemail Muhammed',
     role: 'UI/UX Designer',
     image: img3,
   },
   {
     id: 4,
-    name: 'Michael Johnson',
+    name: 'Nejat Seid',
     role: 'Data Scientist',
     image: img4,
   },
   {
     id: 5,
-    name: 'Sophia Williams',
+    name: 'Selam Mertu',
     role: 'QA Engineer',
     image: img5,
   },
   {
     id: 6,
-    name: 'David Lee',
+    name: 'samuel Hailu',
     role: 'DevOps Engineer',
     image: img6,
   },
