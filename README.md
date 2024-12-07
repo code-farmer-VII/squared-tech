@@ -115,7 +115,7 @@ The Contact Us page includes:
 _Description: The elegant hero section with an engaging call-to-action._
 
 ### About Us
-![About Us](https://via.placeholder.com/800x400)  
+![image](https://github.com/user-attachments/assets/3d4157fa-403b-497b-a49b-f1437f7bd5ed) 
 _Description: The story behind Squared Company and its vision._
 
 ### Services
