@@ -111,7 +111,7 @@ The Contact Us page includes:
 
 ## **Screenshots**
 ### Homepage
-![Homepage](https://via.placeholder.com/800x400)  
+ ![image](https://github.com/user-attachments/assets/86ea1c06-5802-450d-9958-a99b3341256d)
 _Description: The elegant hero section with an engaging call-to-action._
 
 ### About Us
