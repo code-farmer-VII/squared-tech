@@ -35,7 +35,7 @@ The **Squared Company Portfolio** is a responsive, modern website designed to pr
 - Elegant animations powered by Framer Motion.
 - Optimized for speed and performance.
 - Easy to navigate with a clean and intuitive user interface.
-- Contact form with validation and email integration.
+- Contact form with email integration.
 
 ---
 
@@ -71,7 +71,7 @@ Make sure you have the following installed on your system:
    ```bash
    npm run dev
    ```
-5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+5. Open your browser and go to http://localhost:5173/.
 
 ---
 
@@ -84,8 +84,8 @@ The homepage welcomes visitors with:
 
 ### **2. About Us**
 The About Us page provides:
-- A brief history of Squared Company.
-- The company's mission and vision.
+- A brief about of Squared Company.
+- The company's mission and goal.
 - Information about the leadership team and company culture.
 
 ### **3. Services**
@@ -112,11 +112,11 @@ The Contact Us page includes:
 ## **Screenshots**
 ### Homepage
  ![image](https://github.com/user-attachments/assets/86ea1c06-5802-450d-9958-a99b3341256d)
-_Description: The elegant hero section with an engaging call-to-action._
+_Description: give information about the company information like service and about the company._
 
 ### About Us
 ![image](https://github.com/user-attachments/assets/3d4157fa-403b-497b-a49b-f1437f7bd5ed) 
-_Description: The story behind Squared Company and its vision._
+_Description: give information goal and its vision._
 
 ### Services
 ![image](https://github.com/user-attachments/assets/d01bc064-e894-4085-8b9d-a7bc1ed465dc)
@@ -128,10 +128,7 @@ _Description: A functional contact form and company details._
 
 ---
 
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
----
 
 ## **Contributing**
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
@@ -139,7 +136,7 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 ---
 
 ## **Contact**
-For any inquiries or feedback, please email us at **support@squaredcompany.com**.
+For any inquiries or feedback, please email us at **temesgengonfaformal@gmail.com**.
 
 ---
 
