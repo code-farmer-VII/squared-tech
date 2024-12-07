@@ -119,11 +119,11 @@ _Description: The elegant hero section with an engaging call-to-action._
 _Description: The story behind Squared Company and its vision._
 
 ### Services
-![Services](https://via.placeholder.com/800x400)  
+![image](https://github.com/user-attachments/assets/d01bc064-e894-4085-8b9d-a7bc1ed465dc)
 _Description: Showcase of services with animated cards._
 
 ### Contact Us
-![Contact Us](https://via.placeholder.com/800x400)  
+![image](https://github.com/user-attachments/assets/8187b8ea-0eaf-4756-a496-338808249fbf)
 _Description: A functional contact form and company details._
 
 ---
