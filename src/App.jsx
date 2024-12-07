@@ -6,6 +6,7 @@ import AboutUs from "./page/AboutUs";
 import Contact from "./page/ContactUs";
 import Navbar from "./components/navBar";
 import Footer from './components/Footer'
+import ScrollToTop from "./components/ScrollToTop";
 
 
 const App = () => {
@@ -13,9 +14,10 @@ const App = () => {
     
     <Router>
       <div>
+
         {/* Navbar */}
         <Navbar />
-
+        <ScrollToTop />
         {/* Main Content */}
         <div className="pt-20">
           <Routes>
